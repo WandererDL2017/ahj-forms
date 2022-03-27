@@ -7,14 +7,32 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="example">
-    <button
-      type="button"
-      class="btn btn-inform popover-button"
-      data-name="popover"
-      data-contant="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
+  <div
+      class="popover bs-popover-top hidden"
+      style="
+        position: absolute;
+      "
     >
-    </button>
+      <div class="arrow" style="left: 124px;"></div>
+      <h3 class="popover-header">Popover title</h3>
+      <div class="popover-body">
+        And here's some amazing content. It's very engaging. Right?
+      </div>
+    </div>
+
+    <div class="bd-example">
+      <button
+        type="button"
+        class="btn btn-lg btn-danger"
+        data-toggle="popover"
+        title=""
+        data-content="And here's some amazing content. It's very engaging. Right?"
+        data-original-title="Popover title"
+        aria-describedby="popover630619"
+      >
+        Click to toggle popover
+      </button>
+    </div>
   </div>
 </body>
 </html>
