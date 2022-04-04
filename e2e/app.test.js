@@ -19,7 +19,7 @@ describe('popover button', () => {
         }
       });
     });
-    
+
     browser = await puppeteer.launch({
       headless: false,
       slowMo: 100,
