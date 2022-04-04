@@ -44,10 +44,7 @@
     "jsdom": "^19.0.0",
     "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^2.6.0",
-    "puppeteer": "^13.5.2",
-    "webpack": "^5.70.0",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.7.4"
+    "puppeteer": "^13.5.2" 
   },
   "dependencies": {
     "core-js": "^3.21.1",
@@ -55,6 +52,9 @@
     "html-webpack-plugin": "^5.5.0",
     "optimize-css-assets-webpack-plugin": "^6.0.1",
     "terser-webpack-plugin": "^5.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4",
     "webpack-merge": "^5.8.0"
   }
 }
